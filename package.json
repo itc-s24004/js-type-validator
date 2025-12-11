@@ -1,0 +1,17 @@
+{
+	"name": "js-type-validator",
+	"version": "1.0.0",
+	"description": "",
+
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+
+	"scripts": {
+		"build": "tsc"
+	},
+
+	"devDependencies": {
+		"@types/node": "^25.0.0",
+		"typescript": "^5.9.3"
+	}
+}
