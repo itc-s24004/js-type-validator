@@ -1,14 +1,28 @@
 {
 	"name": "js-type-validator",
-	"version": "1.0.0",
-	"description": "",
+	"description": "型のバリデーションを行うためのライブラリ",
+
+
+	"version": "1.0.1",
+
 
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 
+	"type": "module",
+
 	"scripts": {
 		"build": "tsc"
 	},
+
+	"keywords": [
+		"json",
+		"type",
+		"validation",
+		"validator",
+		"js",
+		"ts"
+	],
 
 	"devDependencies": {
 		"@types/node": "^25.0.0",
