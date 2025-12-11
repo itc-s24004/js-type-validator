@@ -1,5 +1,5 @@
-import { type js_val_builder_call } from "../index";
-import { js_val_base } from "./base";
+import { type js_val_builder_call } from "../index.js";
+import { js_val_base } from "./base.js";
 export declare class js_val_union<T> extends js_val_base<T> {
     #private;
     constructor();

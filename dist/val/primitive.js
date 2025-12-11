@@ -1,4 +1,4 @@
-import { js_val_base } from "./base";
+import { js_val_base } from "./base.js";
 export class js_val_primitive extends js_val_base {
     #type;
     constructor(type) {

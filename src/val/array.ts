@@ -1,7 +1,7 @@
-import { js_val, type js_val_builder } from "../index";
-import type {} from "../index";
-import { js_val_base } from "./base";
-import type { js_val_range, to_jv_type } from "./base";
+import { js_val, type js_val_builder } from "../index.js";
+import type {} from "../index.js";
+import { js_val_base } from "./base.js";
+import type { js_val_range, to_jv_type } from "./base.js";
 
 export class js_val_array<T> extends js_val_base<T> {
     #length?: js_val_range;

@@ -1,5 +1,5 @@
-import { js_val } from "../index";
-import { js_val_base } from "./base";
+import { js_val } from "../index.js";
+import { js_val_base } from "./base.js";
 export class js_val_object extends js_val_base {
     #values = {};
     prop(key, call) {

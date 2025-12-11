@@ -1,5 +1,5 @@
-import { js_val_base } from "./base";
-import type { js_val_range } from "./base";
+import { js_val_base } from "./base.js";
+import type { js_val_range } from "./base.js";
 export type to_prim_type<T> = T extends string ? "string" : T extends number ? "number" | "integer" : T extends boolean ? "boolean" : "string" | "number" | "integer" | "boolean";
 export declare class js_val_primitive<T = any> extends js_val_base<T> {
     #private;

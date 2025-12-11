@@ -1,9 +1,9 @@
-import { js_val_base } from "./val/base";
-import { js_val_primitive} from "./val/primitive";
-import type { to_prim_type } from "./val/primitive";
-import { js_val_array } from "./val/array";
-import { js_val_object } from "./val/object";
-import { js_val_union } from "./val/union";
+import { js_val_base } from "./val/base.js";
+import { js_val_primitive} from "./val/primitive.js";
+import type { to_prim_type } from "./val/primitive.js";
+import { js_val_array } from "./val/array.js";
+import { js_val_object } from "./val/object.js";
+import { js_val_union } from "./val/union.js";
 
 
 export type js_val_builder<T> = {

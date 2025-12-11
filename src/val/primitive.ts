@@ -1,5 +1,5 @@
-import { js_val_base } from "./base";
-import type { js_val_range, to_jv_type_str } from "./base";
+import { js_val_base } from "./base.js";
+import type { js_val_range } from "./base.js";
 
 export type to_prim_type<T> =
     T extends string ? "string" :
